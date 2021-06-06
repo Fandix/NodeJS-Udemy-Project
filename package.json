@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-udemy-project",
+  "version": "1.0.0",
+  "description": "Project of learning NodeJS in Udemy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fandix/NodeJS-Udemy-Project.git"
+  },
+  "author": "fandix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fandix/NodeJS-Udemy-Project/issues"
+  },
+  "homepage": "https://github.com/Fandix/NodeJS-Udemy-Project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
